@@ -114,6 +114,11 @@
   outline: none;
 }
 
+.success .card {
+  margin: auto;
+  max-width: 600px;
+}
+
 /* Services */
 
 .services {
