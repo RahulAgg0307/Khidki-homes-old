@@ -373,7 +373,6 @@ tr:nth-child(even) {
 }
 
 
-
 /* Footer */
 .footer .grid {
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -515,6 +514,10 @@ tr:nth-child(even) {
       font-size: 10px;
       line-height: normal;
     }
+
+    /* About Us */
+
+
 
     /* Footer */
     .social {
