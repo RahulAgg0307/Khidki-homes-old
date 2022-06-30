@@ -1,0 +1,160 @@
+/* FAQ */
+
+/* Home Page */
+.faq-pointer{
+  background-color: var(--kh-white);
+  height : 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  /* border : 1px solid red; */
+
+}
+
+.faq-pointer_text{
+  /* border: 1px solid green; */
+  padding-left: 1em;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ques-serv{
+  /* text-align: center; */
+  /* position: relative; */
+  /* top: 1em; */
+  width: ;
+}
+
+
+.img-ques{
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  /* position: relative;
+  left: 17em; */
+}
+
+.read-faq{
+  color: var(--kh-black);
+  padding: 5px 12px;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 6px;
+  /* position: relative;
+  left: 33.5em; */
+  width: 170px;
+}
+.read-faq:hover {
+  color: var(--kh-white);
+  background-color: #000;
+  transition: 0.5s;
+}
+
+
+
+/* FAQ Page */
+
+
+.faq-heading{
+  border-bottom: #777;
+  padding: 10px 60px;
+  text-align: center;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+width: 65%;
+margin: auto;
+}
+
+
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+  color: var(--kh-jet-black);
+  cursor: pointer;
+  padding: 20px 20px;
+  width: 65%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.faq-body{
+  margin: auto;
+  text-align: justify;
+  width: 60%;
+  padding: auto;
+  line-height: 1.5em;
+
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+  background-color: var(--kh-grey);
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+  padding: 0 10px;
+  margin-bottom: 10px;
+  /* background-color: #EBEBEB; */
+  display: none;
+  overflow: hidden;
+}
+.faq-page:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: var(--kh-jet-black);
+  margin: auto 0 auto auto;
+
+}
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}
+
+/* .faq-nineteen{
+  margin-bottom: 30px;
+} */
+
+.quot-head{
+  text-align: center;
+  margin-top: 30px;
+  color: var(--kh-dark-orange);
+}
+
+.quot-button{
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 1000px){
+
+  .quot-button{
+    padding-top: 1.5rem;
+  }
+  .faq-page{
+    width: 90%;
+
+  }
+  .faq-body{
+    width: 90%;
+  }
+  .hr-line{
+  width: 90%;
+  }
+
+}
