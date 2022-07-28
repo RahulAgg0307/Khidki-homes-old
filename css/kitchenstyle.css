@@ -1,0 +1,232 @@
+/* kitchen css */
+.section-heading{
+  padding-left: 2%;
+  text-decoration: solid;
+  padding-top: 1%;
+}
+
+.row{
+  box-sizing: border-box;
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.kitchen-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 10px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 3%;
+}
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+.kitchen-img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+
+
+.right-test {
+  width:100px;
+  display:inline-block;
+  overflow: auto;
+  white-space: nowrap;
+  margin:0px auto;
+  margin-top: 130px;
+  padding-left: 20px;
+}
+
+.left-test {
+  width:200px;
+  display:inline-block;
+  overflow: auto;
+  white-space: nowrap;
+  margin:0px auto;
+  margin-top: 130px;
+  padding-left: 30px;
+}
+
+
+/*  */
+@media  screen and (min-width:601px) {
+    .cards-wrapper{
+        display: flex;
+    }
+    .card{
+        margin: 0 .5em;
+        width: calc(100%/3);
+    }
+    .image-wrapper{
+        height: 22vw;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+     .card:not(:first-child){
+        display: none;
+     }
+}
+
+.image-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.white-div{
+    background-color: grey;
+    width: 3.5em;
+    height: 70px;
+    margin: auto;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.item{
+    /* border : 1px solid red; */
+    height: 420px;
+}
+
+.pad15{
+    /* border : 1px solid green; */
+    height: 90%;
+}
+
+.pad15 > img{
+    /* border : 1px solid brown; */
+    height : 65%;
+}
+
+.MultiCarousel {
+        /* border : 1px solid red; */
+          overflow: hidden;
+          /* padding: 15px; */
+          margin-left : 0px;
+          margin-right: 0px;
+          width: 100%;
+          /* position:relative; */
+     }
+    .MultiCarousel .MultiCarousel-inner {
+         transition: 1s ease all;
+          /* float: left; */
+         }
+        .MultiCarousel .MultiCarousel-inner .item {
+             float: left;
+            }
+        .MultiCarousel .MultiCarousel-inner .item > div {
+             text-align: center;
+              padding:10px;
+              margin:10px;
+              background:#f1f1f1;
+               color: black;
+               border-radius: 5%;
+               box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+               /* height: 25em; */
+            }
+
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst {
+        position:absolute;
+        border: 0px solid transparent;
+        outline: 0px;
+        border-radius: 50%;
+         opacity: 0.7;
+         /* background : transparent; */
+         top:calc(45% - 10px);
+         /* top : 1000px; */
+         padding-left: 20px;
+         padding-right: 20px;
+        }
+
+        .leftist:hover , .rightLst:hover{
+            opacity: 1;
+        }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {
+             pointer-events: none;
+             background:#ccc;
+             /* border-radius: 10%; */
+            }
+
+    .top-page{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+    }
+
+
+    .top-page >button{
+       border: 3px solid white;
+       position: absolute;
+       color: white;
+       background: transparent;
+       width: 110px;
+       border-radius: 30px;
+    }
+
+    .top-page a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .pic-button-cabinet{
+       top: 200px;
+       left: 350px;
+    }
+
+    .pic-button-types{
+        top:250px;
+        left: 500px;
+    }
+
+    .pic-button-countertop{
+        top: 600px;
+        left: 350px;
+    }
+
+    .pic-button-brands{
+        top: 580px;
+        left: 550px;
+    }
+
+    .pic-button-accessories{
+        top: 570px;
+        left: 780px;
+    }
+
+    .pic-button-appliances{
+        top: 560px ;
+        left: 1000px;
+    }
