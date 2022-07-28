@@ -125,6 +125,12 @@
   padding-top: 10px;
 }
 
+.card-hover:hover {
+  transform: scale(1.05);
+  cursor: default;
+  transition: 0.2s;
+
+}
 .space-type {
   padding: 10px 20px;
 }
