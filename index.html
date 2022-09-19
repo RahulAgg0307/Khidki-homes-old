@@ -35,20 +35,6 @@
   </script>
   <!-- End Google Analytics -->
 
-  <!-- JQUERY-->
-  <script
-  src="https://code.jquery.com/jquery-3.6.1.min.js"
-  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
-  crossorigin="anonymous"></script>
-
-  <script>
-    $(function(){
-      $('#commonHeader').load('header.html');
-    });
-  </script>
-  <!-- End of JQUERY-->
-
-
 </head>
 <body>
 
@@ -57,7 +43,27 @@
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <!-- Navbar -->
-  <div id = "commonHeader"></div>
+  <div class="navbar" id = "myHeader">
+    <div class="container flex">
+      <div class="left-container flex">
+        <h1 class="logo-colors"><a href="index.html">KHIDKI HOMES</a></h1>
+        <nav>
+          <ul>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#features">Features</a></li>
+            <li><a href="faq.html">FAQs</a></li>
+            <!-- <li><a href="#">Design Ideas</a></li> -->
+          </ul>
+        </nav>
+      </div>
+      <div class="right-container flex">
+        <i class="fa-solid fa-phone fa-2x m-1"></i>
+        <h2>874-888-8181</h2>
+        <!-- <button class="btn contactbtn">Contact Us</button> -->
+      </div>
+    </div>
+  </div>
+  <script src="stickyheader.js"></script>
 
   <!-- Showcase -->
   <section class="showcase">
