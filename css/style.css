@@ -3,7 +3,9 @@
 
 .navbar {
   height: 80px;
-  background-color: var(--kh-white);
+  color: var(--kh-white);
+  background-color: var(--kh-dark-orange);
+  z-index: 100000;
 
 
 }
@@ -22,6 +24,7 @@
 
 .navbar .flex {
   justify-content: space-between;
+  padding: 0;
 }
 
 .navbar ul {
@@ -32,15 +35,23 @@
 .navbar ul a {
   padding: 10px;
   margin: 0 10px;
-  color: var(--kh-black);
+  color: var(--kh-white);
 }
 
 .navbar ul a:hover {
-  border-bottom: 2px var(--kh-black) solid;
+  border-bottom: 2px var(--kh-white) solid;
 }
 
 .contactbtn {
   font-size: 24px;
+
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 
 }
 
@@ -407,11 +418,12 @@ tr:nth-child(even) {
 
   /* Navbar */
   .navbar {
-    height: 125px;
+    height: 95px;
   }
 
   .navbar .flex {
     flex-direction: column;
+
   }
 
   .right-container {
@@ -420,7 +432,7 @@ tr:nth-child(even) {
 
 
   nav ul {
-    padding: 10px 0;
+    padding: 0px 0;
 
   }
 
