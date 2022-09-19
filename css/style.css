@@ -38,7 +38,7 @@
   color: var(--kh-white);
 }
 
-.navbar ul a:hover {
+.navbar ul a:hover, .nav-active a {
   border-bottom: 2px var(--kh-white) solid;
 }
 
@@ -404,6 +404,10 @@ tr:nth-child(even) {
 
 .contact-us a {
   color: var(--kh-black);
+}
+
+.footerIndex{
+  font-size: 0.8rem;
 }
 
 /* Mobile */
