@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/faqstyle.css">
   <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
+
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -34,35 +35,29 @@
   </script>
   <!-- End Google Analytics -->
 
+  <!-- JQUERY-->
+  <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+
+  <script>
+    $(function(){
+      $('#commonHeader').load('header.html');
+    });
+  </script>
+  <!-- End of JQUERY-->
+
 
 </head>
 <body>
+
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MLNXH33"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <!-- Navbar -->
-  <div class="navbar" id = "myHeader">
-    <div class="container flex">
-      <div class="left-container flex">
-        <h1 class="logo-colors"><a href="index.html">KHIDKI HOMES</a></h1>
-        <nav>
-          <ul>
-            <li><a href="index.html#services">Services</a></li>
-            <li><a href="index.html#features">Features</a></li>
-            <li><a href="faq.html">FAQs</a></li>
-            <!-- <li><a href="#">Design Ideas</a></li> -->
-          </ul>
-        </nav>
-      </div>
-      <div class="right-container flex">
-        <i class="fa-solid fa-phone fa-2x m-1"></i>
-        <h2>874-888-8181</h2>
-        <!-- <button class="btn contactbtn">Contact Us</button> -->
-      </div>
-    </div>
-  </div>
-  <script src="main.js"></script>
+  <div id = "commonHeader"></div>
 
   <!-- Showcase -->
   <section class="showcase">

@@ -13,30 +13,47 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/globalstyles.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/faqstyle.css">
   <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MLNXH33');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V2R7GXTQK2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-V2R7GXTQK2');
+  </script>
+  <!-- End Google Analytics -->
+
+  <!-- JQUERY-->
+  <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+
+  <script>
+    $(function(){
+      $('#commonHeader').load('header.html');
+    });
+  </script>
+  <!-- End of JQUERY-->
+
+
 </head>
+
 <body>
   <!-- Navbar -->
-  <div class="navbar">
-    <div class="container flex">
-      <div class="left-container flex">
-        <h1 class="logo-colors"><a href="index.html">Khidki.Homes</a></h1>
-        <nav>
-          <ul>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#about">About</a></li>
-            <!-- <li><a href="#">Design Ideas</a></li> -->
-          </ul>
-        </nav>
-      </div>
-      <div class="right-container flex">
-        <i class="fa-solid fa-phone fa-2x m-1"></i>
-        <h2>874-888-8181</h2>
-        <!-- <button class="btn contactbtn">Contact Us</button> -->
-      </div>
-    </div>
-  </div>
+  <div id = "commonHeader"></div>
 
   <div class="success m-5">
     <div class="container card text-center">

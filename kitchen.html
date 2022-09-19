@@ -1,4 +1,4 @@
-<!-- Khidki Homes Kitchen -->
+<!-- Khidki Homes Website -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Khidki Homes | Painting, Renovation & Interiors</title>
   <meta name="description" content="Hassle-free Painting, Renovation & Interiors. Everything for your Dream Home from Design to Execution.">
-  <meta name="keywords" content="Kitchen, Modular Kitchen, Quartz, Best Price">
+  <meta name="keywords" content="Painting, Renovation, Interiors, Home Interiors, Modular, Furniture, Kitchen, Living Room, Bedroom, Bathroom, Study Room">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
@@ -14,12 +14,7 @@
   <link rel="stylesheet" href="css/globalstyles.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/faqstyle.css">
-  <link rel="stylesheet" href="css/kitchenstyle.css">
   <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -40,34 +35,29 @@
   </script>
   <!-- End Google Analytics -->
 
+  <!-- JQUERY-->
+  <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+
+  <script>
+    $(function(){
+      $('#commonHeader').load('header.html');
+    });
+  </script>
+  <!-- End of JQUERY-->
+
 
 </head>
+
 <body>
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MLNXH33"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <!-- Navbar -->
-  <div class="navbar">
-    <div class="container flex">
-      <div class="left-container flex">
-        <h1 class="logo-colors"><a href="index.html">Khidki.Homes</a></h1>
-        <nav>
-          <ul>
-            <li><a href="index.html#services">Services</a></li>
-            <li><a href="index.html#features">Features</a></li>
-            <li><a href="faq.html">FAQs</a></li>
-            <!-- <li><a href="#">Design Ideas</a></li> -->
-          </ul>
-        </nav>
-      </div>
-      <div class="right-container flex">
-        <i class="fa-solid fa-phone fa-2x m-1"></i>
-        <h2>874-888-8181</h2>
-        <!-- <button class="btn contactbtn">Contact Us</button> -->
-      </div>
-    </div>
-  </div>
+  <div id = "commonHeader"></div>
 
   <!-- Kitchen Section -->
 
