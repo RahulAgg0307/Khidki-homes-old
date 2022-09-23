@@ -32,6 +32,18 @@
 .blog-content h1 {
   width: 70%;
 }
+.blog-content-item h3 {
+  margin-bottom: 20px;
+}
+.blog-content-item p {
+  padding: 20px;
+  text-align: justify;
+  line-height: 2;
+}
+
+.blog-content-item .grid {
+  gap: 20px;  
+}
 
 
 
