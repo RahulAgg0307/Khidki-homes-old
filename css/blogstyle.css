@@ -23,6 +23,11 @@
   overflow: hidden;
 }
 
+.blog-brief h3, .blog-brief p {
+  /* text-align: justify; */
+  line-height: 1.2;
+}
+
 .blog-content {
   width: 80%;
   font-size: 1.2rem;
@@ -42,7 +47,7 @@
 }
 
 .blog-content-item .grid {
-  gap: 20px;  
+  gap: 20px;
 }
 
 

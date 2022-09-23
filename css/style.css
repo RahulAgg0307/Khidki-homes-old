@@ -442,6 +442,7 @@ tr:nth-child(even) {
 
   .navbar ul a {
     margin: 0 5px;
+    padding: 5px;
 
   }
 
