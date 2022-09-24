@@ -389,6 +389,26 @@ tr:nth-child(even) {
   overflow: hidden;
 }
 
+/* Floating whatsapp icon */
+.whatsapp-float{
+	position:fixed;
+	width:70px;
+	height:70px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:5px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.whatsapp-float-icon{
+	margin-top:5px;
+}
+
 
 /* Footer */
 .footer .grid {
@@ -539,6 +559,12 @@ tr:nth-child(even) {
     }
 
     /* About Us */
+
+    /* Floating WhatsApp icon */
+    .whatsapp-float{
+    	bottom:20px;
+    	right:20px;
+    }
 
 
 
