@@ -19,8 +19,15 @@
 
 .blog-home img {
   height: 100%;
-  object-fit: cover;
   overflow: hidden;
+}
+
+.img-cover {
+  object-fit: cover;
+}
+
+.img-contain {
+  object-fit: contain;
 }
 
 .blog-brief h3, .blog-brief p {
