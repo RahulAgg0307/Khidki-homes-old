@@ -30,9 +30,37 @@
   object-fit: contain;
 }
 
-.img-enlargable {
-  cursor: url("http://tholman.com/intense-images/img/plus_cursor.png") 25 25, auto;
+/* Full screen image styles
+=================================== */
+
+.scroll-disabled {
+  height: 100%;
+  overflow: hidden;
 }
+
+.img-full-screen {
+  cursor:zoom-in;
+}
+
+.img-placeholder {
+  cursor:zoom-out;
+}
+
+.img-placeholder {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fff;
+  z-index: 999;
+}
+
+
 
 .blog-brief h3, .blog-brief p {
   /* text-align: justify; */
