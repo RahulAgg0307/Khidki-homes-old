@@ -30,6 +30,10 @@
   object-fit: contain;
 }
 
+.img-enlargable {
+  cursor: url("http://tholman.com/intense-images/img/plus_cursor.png") 25 25, auto;
+}
+
 .blog-brief h3, .blog-brief p {
   /* text-align: justify; */
   line-height: 1.2;
