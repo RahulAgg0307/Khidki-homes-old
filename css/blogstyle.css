@@ -11,6 +11,10 @@
 
 }
 
+.blog-home p {
+  text-align: justify;
+}
+
 .blog-home-image {
   height: 300px;
 
