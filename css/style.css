@@ -388,6 +388,7 @@ tr:nth-child(even) {
 .about-us img {
   height: 100%;
   object-fit: cover;
+  object-position: 0 10%;
   overflow: hidden;
 }
 
