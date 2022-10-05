@@ -26,13 +26,7 @@
   overflow: hidden;
 }
 
-.img-cover {
-  object-fit: cover;
-}
 
-.img-contain {
-  object-fit: contain;
-}
 
 /* Full screen image styles
 =================================== */

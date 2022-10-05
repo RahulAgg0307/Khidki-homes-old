@@ -466,6 +466,7 @@ tr:nth-child(even) {
   .navbar ul a {
     margin: 0 5px;
     padding: 5px;
+    font-size: 0.8rem;
 
   }
 
@@ -478,6 +479,10 @@ tr:nth-child(even) {
 
   .showcase-form {
     top: 0;
+  }
+
+  .showcase h1 {
+    font-size: 30px;
   }
 
 

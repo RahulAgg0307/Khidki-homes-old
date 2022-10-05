@@ -1,0 +1,89 @@
+/* Our Work CSS */
+
+
+.ourwork-home .card {
+  height: 500px;
+  overflow: visible;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  padding: 10px;
+  gap: 25px;
+
+}
+
+.ourwork-home p {
+  text-align: justify;
+}
+
+.ourwork-home-image {
+  height: 300px;
+
+}
+
+
+.ourwork-home img {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Project Details CSS */
+.ourwork-content {
+  position: relative;
+  width: 80%
+}
+
+.workSlides {
+  display: none;
+}
+
+.workSlides img {
+  max-height: 700px;
+  object-fit: cover;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Six columns side by side */
+.thumbnail-column {
+  float: left;
+  width: 25%;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+/* Add a transparency effect for thumnbail images */
+.thumbnail-img {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.active,
+.thumbnail-img:hover {
+  opacity: 1;
+}

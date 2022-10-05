@@ -193,6 +193,10 @@ input[type=number] {
   margin: 4rem;
 }
 
+.lineheight-2 {
+  line-height: 1.6;
+}
+
 /* Padding */
 .py-1 {
   padding: 1rem 0;
@@ -261,4 +265,12 @@ th, td {
 
 .bottom-focused {
   object-position: center;
+}
+
+.img-cover {
+  object-fit: cover;
+}
+
+.img-contain {
+  object-fit: contain;
 }
